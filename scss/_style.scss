@@ -15,9 +15,8 @@ header {
     }
 }
 
-// 白底色區塊
+// 主要區塊(白底色)
 .main {
-    //margin-bottom: 72px;
     .title {
         display: flex;
         align-items: center;
@@ -55,14 +54,17 @@ header {
 }
 
 
-// 灰藍底色區塊
+// 次要區塊(灰藍底)
 .minor {
     background: #415165;
     padding: 24px 0 36px 0;
     color: #ffffff;
     margin-bottom: 72px;
+
+    // 標題區塊寬度較小
     .minor-row {
         padding: 0 102px 0 102px;
+        // 與下方間距40px
         .title {
             line-height: 45px;
             padding-bottom: 8px;
@@ -70,6 +72,7 @@ header {
             margin-bottom: 40px;
         }
     }
+
     h2 {
         display: flex;
         align-items: center;
@@ -115,6 +118,9 @@ header {
 
 footer {
     margin-bottom: 0 !important;
+
+    // 標題區塊寬度滿版
+    // 與下方間距32px
     .title {
         line-height: 45px;
         padding-bottom: 8px;
