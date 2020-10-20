@@ -97,7 +97,7 @@ header {
     border-bottom: 2px solid #000;
     margin-bottom: 48px; }
 
-.main .title {
+.main .main-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,14 +108,14 @@ header {
   padding-bottom: 8px;
   border-bottom: 1px solid #000;
   margin-bottom: 16px; }
-  .main .title h2 {
+  .main .main-title h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    .main .title h2 span {
+    .main .main-title h2 span {
       font-size: 24px;
       color: #a00404;
       font-weight: 500;
@@ -140,7 +140,7 @@ header {
   margin-bottom: 72px; }
   .minor .minor-row {
     padding: 0 102px 0 102px; }
-    .minor .minor-row .title {
+    .minor .minor-row .minor-title {
       line-height: 45px;
       padding-bottom: 8px;
       border-bottom: 1px solid #fff;
@@ -191,7 +191,7 @@ header {
 
 footer {
   margin-bottom: 0 !important; }
-  footer .title {
+  footer .minor-title {
     line-height: 45px;
     padding-bottom: 8px;
     border-bottom: 1px solid #fff;

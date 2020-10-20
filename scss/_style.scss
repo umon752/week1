@@ -17,7 +17,7 @@ header {
 
 // 主要區塊(白底色)
 .main {
-    .title {
+    .main-title {
         display: flex;
         align-items: center;
         line-height: 45px;
@@ -65,7 +65,7 @@ header {
     .minor-row {
         padding: 0 102px 0 102px;
         // 與下方間距40px
-        .title {
+        .minor-title {
             line-height: 45px;
             padding-bottom: 8px;
             border-bottom: 1px solid #fff;
@@ -121,7 +121,7 @@ footer {
 
     // 標題區塊寬度滿版
     // 與下方間距32px
-    .title {
+    .minor-title {
         line-height: 45px;
         padding-bottom: 8px;
         border-bottom: 1px solid #fff;
